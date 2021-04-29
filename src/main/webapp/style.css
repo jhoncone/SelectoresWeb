@@ -1,0 +1,278 @@
+@charset "ISO-8859-1";
+
+*{
+    
+    box-sizing: border-box;
+   
+}
+
+
+
+
+body{
+    background-color: #f5f5f5 !important;
+    font-family: 'roboto','helvetica neue',Helvetica,Arial,sans-serif !important;
+    font-size: 16px !important; 
+    line-height: 1.625 !important;
+    color: #555 !important;
+}
+
+
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    background: aqua;
+}
+
+.contenedor {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row-offcanvas {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#primary{
+    background-color: #fff;
+}
+
+
+
+
+/*secondary*/
+
+#secondary{
+   
+    background-color:rgb(51, 51, 51);
+    width: 35%;
+
+}
+
+
+#secondary a{
+    color:#ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hgroup{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.site-title-display-title .st-current{
+    padding-left: 40px;
+    font-family: 'Lobster';
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.hgroup h2{
+    color:#ffffff;
+    opacity: 30%;
+    font-family: 'Roboto Condensed';
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+#site-navigation ul{
+    padding-left: 20px;
+}
+
+#site-navigation li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: block;
+    text-transform: uppercase;
+   
+}
+
+
+
+#secondary .widget-title {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "roboto condensed";
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px 0px 10px;
+}
+
+strong{
+    font-family:"roboto", "helvetica neue", Helvetica, Arial, sans-serif ;
+    font-size: 14px;
+    line-height: 22.75px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #ffffff;
+    opacity: 50%;
+
+}
+
+#secondary .widget {
+    padding: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+}
+
+
+.mc-field-grup input{
+    padding:6px;
+    font-family: 'roboto', "helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: start;
+    line-height: 26px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+#menu-meniu{
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+
+small{
+    color:#ffffff;
+    opacity: 50%;
+
+}
+
+
+
+/*Primary*/
+
+
+#post-114{
+    padding:80px 90px;
+}
+
+
+
+input.usp-input {
+    float: left;
+    clear: both;
+    width: 70%;
+    margin: 0px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+fieldset{
+    margin: 10px 0;
+    padding: 0;
+    border: 0;
+}
+
+fieldset label {
+    float: left;
+    clear: both;
+    width: 70%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 18px;
+}
+
+
+
+
+
+.entry-title{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: normal;
+    color:#555555;
+}
+
+.sorted-list-two{
+    padding-top: 30px;
+    font-family: "roboto" "helvetica neue", Helvetica, Arial, sans-serif !important;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+
+
+
+
+
+
+
+
+
+.row-inputs{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding :0% !important;
+    display: flex;
+    flex-direction: row;
+}
+.col-inputs{
+    width: 50%;
+    
+ 
+}
+
+fieldset .usp-name,.usp-email{
+    margin-left: 15px;
+}
+
+.usp-input-name{
+    width: 100%; 
+   
+}
+
+.usp-input-email{
+    width: 100%;
+  
+}
+.usp-input-title{
+    width: 100% ;
+    margin-bottom: 15px;
+    
+}
+.usp-input-url{
+    width: 100% !important;
+    margin-bottom: 15px;
+ 
+}
+
+
+textarea {
+    width: 100%;    
+}
+
+.usp-input-others{
+    width: 100%;
+}
+
+.usp-input-usp-clone-exclude{
+    width: 100%;
+    margin-bottom: 15px;
+}
